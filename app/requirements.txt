@@ -1,0 +1,10 @@
+numpy==2.5.4
+opencv-python==5.0.0.93
+pillow==13.0.0
+onnxruntime-gpu==1.31.1
+nvidia-cuda-runtime==13.5.37
+nvidia-cuda-nvrtc==13.5.37
+nvidia-cublas==13.10.0.20
+nvidia-cudnn-cu13==9.28.0.42
+rich==15.0.0
+tqdm==4.70.1

@@ -1,0 +1,12 @@
+# Окружение и данные пользователя
+.venv/
+результаты/
+__pycache__/
+*.pyc
+
+# Открытые модели: большие (D-FINE 120 МБ больше лимита GitHub), программа докачивает их сама при первом запуске
+models/dfine-l-obj365.onnx
+models/dfine-l-obj365-config.json
+models/dfine-l-obj365-preprocessor.json
+models/yolo-v9-s-608-license-plates-end2end.onnx
+models/*.part

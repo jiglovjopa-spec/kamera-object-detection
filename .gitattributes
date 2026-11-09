@@ -1,0 +1,3 @@
+# Bat-файл должен оставаться с переводами строк Windows (CRLF), иначе cmd ломает кириллицу и метки
+*.bat text eol=crlf
+*.onnx binary
