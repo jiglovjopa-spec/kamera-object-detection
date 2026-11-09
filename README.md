@@ -79,14 +79,17 @@
 (чтение номеров и определитель овощей) обучены специально для этой программы, скачать их больше неоткуда.
 На новом компьютере нужны Python 3.14 и интернет при первом запуске.
 
-## Из чего сделано и лицензии
+## Лицензия
+
+**Код — MIT** (файл `LICENSE`): можно свободно использовать, менять и распространять, сохраняя упоминание авторов.
+Модели — на условиях своих данных, подробно в `models/LICENSE-MODELS.md`:
 
 | Часть | Откуда | Лицензия |
 |---|---|---|
-| Предметы и овощи (поиск) | D-FINE-L, обучен на Objects365 | Apache-2.0 (набор Objects365 — для исследований) |
-| Поиск номера на кадре | open-image-models, YOLOv9 | библиотека MIT; **YOLOv9 — GPL-3.0**: для внутреннего использования можно, продавать/раздавать за пределы компании — уточнить у юриста |
-| Чтение номера | своя модель, обучена на AUTO.RIA Numberplate Dataset | данные CC BY 4.0 — © AUTO.RIA (ria.com), ссылка обязательна |
-| Определитель овоща | своя модель (EfficientNet-B0, веса ImageNet из torchvision) | наборы: «Fruit and Vegetable Image Recognition» (Kaggle, лицензия не указана), cc92yy3344/vegetable (Apache-2.0), omorros/kitchen-fruit-vegetable-detection (CC BY 4.0) |
+| Предметы и овощи (поиск) | D-FINE-L, обучен на Objects365; скачивается при запуске | Apache-2.0 |
+| Поиск номера на кадре | open-image-models, YOLOv9; скачивается при запуске | библиотека MIT, **модель YOLOv9 — GPL-3.0** (распространяя программу вместе с ней, соблюдайте GPL-3.0) |
+| Чтение номера | своя модель, обучена на AUTO.RIA Numberplate Dataset | **CC BY 4.0** — ссылка на © AUTO.RIA (ria.com) обязательна |
+| Определитель овоща | своя модель (EfficientNet-B0, веса ImageNet из torchvision) | **«как есть», некоммерческое использование**: один из наборов («Fruit and Vegetable Image Recognition», Kaggle) без лицензии; остальные — cc92yy3344/vegetable (Apache-2.0), omorros/kitchen-fruit-vegetable-detection (CC BY 4.0) |
 | Вычисления | ONNX Runtime (MIT), библиотеки NVIDIA CUDA/cuDNN (лицензия NVIDIA), OpenCV (Apache-2.0), Pillow | |
 
 ## Для обслуживания
